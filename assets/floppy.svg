@@ -1,0 +1,9 @@
+<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Loading Floppy Disk">
+  <rect x="6" y="6" width="38" height="38" rx="4" fill="#FF8C00" stroke="#FDF5E6" stroke-width="2"/>
+  <rect x="14" y="6" width="16" height="14" fill="#FDF5E6"/>
+  <rect x="17" y="9" width="7" height="8" fill="#1A1512"/>
+  <rect x="11" y="26" width="28" height="16" rx="2" fill="#1A1512"/>
+  <circle cx="25" cy="34" r="7" fill="none" stroke="#FF6F00" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 6">
+    <animateTransform attributeName="transform" type="rotate" from="0 25 34" to="360 25 34" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
