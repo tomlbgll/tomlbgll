@@ -1,0 +1,39 @@
+<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal Header">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect x="1" y="1" width="798" height="158" fill="#1A1512" stroke="#FF6F00" stroke-width="2"/>
+
+  <!-- ascii-style corner brackets -->
+  <text x="16" y="26" font-family="'Courier New', monospace" font-size="16" fill="#FF6F00">┌────────────────────────────────────────────────────────────────────┐</text>
+  <text x="16" y="142" font-family="'Courier New', monospace" font-size="16" fill="#FF6F00">└────────────────────────────────────────────────────────────────────┘</text>
+
+  <!-- name -->
+  <text x="400" y="78" font-family="'Courier New', monospace" font-size="38" font-weight="bold"
+        text-anchor="middle" fill="#FF8C00" filter="url(#glow)">
+    &gt; YOUR_NAME_
+  </text>
+
+  <!-- typed subtitle -->
+  <clipPath id="reveal">
+    <rect x="130" y="90" width="0" height="26">
+      <animate attributeName="width" from="0" to="540" dur="2.5s" begin="0.3s" fill="freeze"/>
+    </rect>
+  </clipPath>
+  <g clip-path="url(#reveal)">
+    <text x="400" y="110" font-family="'Courier New', monospace" font-size="17"
+          text-anchor="middle" fill="#FDF5E6">
+      software engineer :: building with a retro glow
+    </text>
+  </g>
+
+  <!-- cursor -->
+  <rect x="672" y="96" width="9" height="18" fill="#FDF5E6">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="2.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
