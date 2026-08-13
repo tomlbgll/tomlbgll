@@ -10,6 +10,10 @@
 
 ## `[ ABOUT_ME.dat ]`
 
+<table>
+<tr>
+<td width="60%" valign="top">
+
 ```yaml
 > BOOT SEQUENCE INITIATED...
 > LOADING PROFILE: YOUR_NAME
@@ -23,11 +27,40 @@
 > LOG: "Ich baue Interfaces, die aussehen, als kämen
 >       sie aus einer Zukunft, die in den 80ern
 >       entworfen wurde."
+> -----------------------------------------
+> UNIT DESIGNATION: R0-BO  [companion droid, see right >>]
+```
+
+</td>
+<td width="40%" align="center" valign="top">
+
+<img src="./assets/robot.svg" width="180" alt="Animated retro robot mascot" />
+<br/>
+<sub><em>R0-BO :: idle animation running</em></sub>
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="divider" />
+
+## `[ NOW_BUILDING.log ]`
+
+```yaml
+[2026] > exploring: retro-futuristic UI systems
+[2026] > learning : ---
+[2026] > shipping : ---
+[2026] > side_quest: keeping this README alive with tiny robots
 ```
 
 <img src="./assets/divider.svg" width="100%" alt="divider" />
 
 ## `[ TECH_STACK.sys ]`
+
+<p align="center">
+  <img src="./assets/floppy.svg" width="34" alt="loading" valign="middle"/>
+  &nbsp;<em>loading modules...</em>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-1A1512?style=for-the-badge&logo=javascript&logoColor=FF8C00&labelColor=1A1512" alt="JavaScript"/>
@@ -41,7 +74,7 @@
   <img src="https://img.shields.io/badge/Git-1A1512?style=for-the-badge&logo=git&logoColor=FF8C00&labelColor=1A1512" alt="Git"/>
 </p>
 
-> Badges anpassen: einfach `logo=` austauschen (z. B. `swift`, `figma`, `linux`, `postman` …), Farben bleiben gleich.
+> Badges anpassen: `logo=` austauschen (z. B. `swift`, `figma`, `linux`, `postman`, `kotlin` …) — Farbwerte bleiben identisch.
 
 <img src="./assets/divider.svg" width="100%" alt="divider" />
 
@@ -55,6 +88,16 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&hide_border=true&background=1A1512&ring=FF6F00&fire=FF8C00&currStreakLabel=FDF5E6&sideLabels=FDF5E6&currStreakNum=FDF5E6&sideNums=FDF5E6&dates=FF6F00" alt="GitHub Streak"/>
 </p>
+
+<img src="./assets/divider.svg" width="100%" alt="divider" />
+
+## `[ ACHIEVEMENTS.bin ]`
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical&no-frame=true&row=1&column=6&title.color=FF8C00&text.color=FDF5E6&icon.color=FF6F00&background=1A1512" alt="Trophies"/>
+</p>
+
+<sub align="center">Hinweis: `theme=radical` ist die Basis, die Farbparameter (`title.color`, `text.color`, `icon.color`, `background`) überschreiben sie bereits auf euer Orange/Vanille-Schema.</sub>
 
 <img src="./assets/divider.svg" width="100%" alt="divider" />
 
@@ -74,6 +117,14 @@
   <a href="https://YOUR_WEBSITE.dev">
     <img src="https://img.shields.io/badge/Terminal-1A1512?style=for-the-badge&logo=todoist&logoColor=FF8C00&labelColor=1A1512" alt="Website"/>
   </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=SIGNALS+RECEIVED&color=FF6F00&style=for-the-badge&labelColor=1A1512" alt="Visitor Count"/>
+</p>
+
+<p align="center">
+  <img src="./assets/robot.svg" width="90" alt="waving goodbye"/>
 </p>
 
 <div align="center">
